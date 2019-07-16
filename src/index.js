@@ -1,12 +1,48 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import Home from './components/Home';
 import * as serviceWorker from './serviceWorker';
+import { Provider } from 'react-redux';
+import { createStore } from 'redux';
+import rootReducer from './reducers/index';
+import { HashRouter } from 'react-router-dom';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import "mdbreact/dist/css/mdb.css";
 
-ReactDOM.render(<App />, document.getElementById('root'));
+function saveToLocalStorage(state){
+  try{
+    const serializedState = JSON.stringify(state);
+    localStorage.setItem('state', serializedState);
+  }catch(e){
+    console.log(e);
+  }
+}
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
+function loadFromLocalStorage() {
+  try {
+    const serializedState = localStorage.getItem('state');
+    if (serializedState === null) return undefined;
+    return JSON.parse(serializedState);
+  } catch(e) {
+    console.log(e);
+    return undefined;
+  }
+}
+
+const persistedState = loadFromLocalStorage();
+
+const store = createStore(rootReducer, persistedState);
+
+store.subscribe(() => saveToLocalStorage(store.getState()));
+
+ReactDOM.render(
+  <Provider store={store}>
+    <HashRouter>
+      <Home />
+    </HashRouter>
+  </Provider>, document.getElementById('root')
+);
+
+
 serviceWorker.unregister();

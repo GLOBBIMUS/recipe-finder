@@ -1,0 +1,62 @@
+img{
+  user-drag: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  cursor: pointer;
+}
+
+.buttonTitle{
+  font-family: 'Merriweather', serif;
+  padding: 5px;
+  color: #494949;
+  text-align: center;
+}
+
+.menuContainer{
+  margin-top: 5%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+  "introMessage introMessage"
+  "mealButton cocktailButton";
+}
+
+.introMessage{
+  font-family: 'Merriweather', serif;
+  background-color: rgb(74,74,74);
+  padding: 25px;
+  grid-area: introMessage;
+  text-align: center;
+  margin-bottom: 3%;
+  color: white;
+}
+
+.mealButton{
+  grid-area: mealButton;
+  justify-self: right;
+  margin-right: 3%;
+  margin-bottom: 10%;
+}
+
+.cocktailButton{
+  grid-area: cocktailButton;
+  justify-self: left;
+  margin-left: 3%;
+  margin-bottom: 10%;
+}
+
+@media (min-width: 1200px) {
+  .introMessage{
+    font-size: 35pt;
+  }
+}
+
+@media (min-width: 900px) {
+  .buttonTitle{
+    padding: 10px;
+    font-size: 20pt;
+  }
+}

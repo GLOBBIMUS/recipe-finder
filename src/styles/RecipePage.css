@@ -1,0 +1,88 @@
+.row{
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.recipePageItem{
+  margin-bottom: 2%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.itemTitle{
+  color: rgb(64, 64, 64);
+}
+
+.noResultMsg{
+  color: rgb(74, 74, 74);
+  text-align: center;
+}
+
+.searchBar{
+  background: transparent;
+  border: 0;
+  border-bottom: solid 2px rgb(124,124,124);
+  margin-right: 10px;
+  font-family: 'Merriweather', serif;
+  width: 150px;
+  padding: 10px;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  color: rgb(74, 74, 74);
+}
+
+.searchBar:focus{
+  width: 200px;
+}
+
+@media (min-width: 900px) {
+  .searchBar:focus{
+    width: 550px;
+  }
+
+  .searchBar{
+    width: 250px;
+  }
+}
+
+.form{
+  margin-top: 5%;
+  margin-bottom: 5%;
+  text-align: center;
+}
+
+.searchButton{
+  border: solid 2px rgb(124,124,124);
+  background: transparent;
+  padding: 10px 30px;
+  margin: 0 0.2rem;
+  border-radius: 1px;
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin-left: 0.7rem;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  color: rgb(104,104,104);
+}
+
+.searchButton:hover{
+  background: rgb(124,124,124);
+  color: white;
+}
+
+.recipePageTitle{
+  font-family: 'Merriweather', serif;
+  font-size: 15pt;
+  margin-top: 3%;
+  color: rgb(74, 74, 74);
+  text-align: center;
+}
+
+@media (min-width: 900px) {
+  .recipePageTitle{
+    font-size: 20pt;
+  }
+}

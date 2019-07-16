@@ -1,0 +1,96 @@
+#ingredientTable {
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  border-collapse: collapse;
+  border: 3px solid #ddd;
+  width: 100%;
+}
+
+#ingredientTable td, #ingredientTable th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#ingredientTable tr:hover {background-color: #ddd;}
+
+#ingredientTable th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #4CAF50;
+  color: white;
+}
+
+.videoFrame{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 80%;
+  height: 80%;
+  max-width: 1200px;
+  max-height: 750px;
+  margin-left: 50%;
+  margin-top: 3%;
+  transform: translate(-50%);
+}
+
+.recipeVideo{
+  position: relative;
+  padding-bottom: 54.25%;
+  padding-top: 25;
+  height: 0;
+}
+
+.recipeTitle{
+  margin-top: 2%;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+.recipeContainer{
+  margin-top: 2%;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-areas:
+  "recipePicture"
+  "recipeIngredients"
+  "recipeInstruction";
+}
+
+.recipePicture{
+  width: 70%;
+  max-width: 700px;
+  grid-area: recipePicture;
+  justify-self: center;
+}
+
+.recipeIngredients{
+  grid-area: recipeIngredients;
+  justify-self: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  text-align: center;
+}
+
+.recipeInstruction{
+  grid-area: recipeInstruction;
+  justify-self: center;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: auto;
+  margin-bottom: auto;
+  font-family: 'Merriweather', serif;
+}
+
+@media (min-width: 1500px) {
+  .recipeContainer{
+    margin-top: 2%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+    "recipePicture recipePicture"
+    "recipeIngredients recipeInstruction";
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+}
