@@ -89,7 +89,7 @@ class Recipe extends Component{
           </div>
           <div className="recipeInstruction">
               <h4 className="textTitle">Instructions</h4>
-            {this.state.instruction}
+            <div className="recipeInstructionValue">{this.state.instruction}</div>
           </div>
         </div>
         {this.state.recipeVideoID ?

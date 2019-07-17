@@ -26,6 +26,10 @@
   text-align: center;
 }
 
+.recipeInstructionValue{
+  line-height: 26pt;
+}
+
 .videoFrame{
   position: absolute;
   top: 0;
