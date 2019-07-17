@@ -14,8 +14,8 @@ npm start
 The app will be running at [http://localhost:3000](http://localhost:3000)
 
 ## Technology Stack
-Recipe-Finder is built using [React.js](https://reactjs.org/) library and open APIs: [TheMealDB](https://www.themealdb.com) and
-[TheCocktailDB](https://www.thecocktaildb.com). [Redux.js](https://redux.js.org/) allowed me to simplify the app's structure and to persist the app's state.
+Recipe-Finder is built using [React.js](https://reactjs.org/) library and open APIs such as [TheMealDB](https://www.themealdb.com) and
+[TheCocktailDB](https://www.thecocktaildb.com). [Redux.js](https://redux.js.org/) allowed me to simplify the structure and logic of this app by centralizing its state.
 To combine the React.js and Redux.js [react-redux](https://www.npmjs.com/package/react-redux) was used.
 
 **Styling:**
@@ -30,5 +30,6 @@ For styling I used multiple react component libraries and bootstrap:
 
 ## Future Work
 
-* Add more searching features such as: "Search by category", "Search by ingridient" and so on.
-* Improve some text styling in the [Recipe.js](https://github.com/GLOBBIMUS/recipe-finder/blob/master/src/components/contentComponents/Recipe.js) component.
+
+*  Add a new component that would let users  search the meal or cocktail by category.
+* Improve the styling in the [Recipe.js](https://github.com/GLOBBIMUS/recipe-finder/blob/master/src/components/contentComponents/Recipe.js) component. Make sure that **Instructions** section is more readable.
