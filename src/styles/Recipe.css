@@ -21,6 +21,11 @@
   color: white;
 }
 
+.textTitle{
+  font-family: 'Merriweather', serif;
+  text-align: center;
+}
+
 .videoFrame{
   position: absolute;
   top: 0;

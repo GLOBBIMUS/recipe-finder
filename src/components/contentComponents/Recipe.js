@@ -80,7 +80,7 @@ class Recipe extends Component{
               />
 
           <div className="recipeIngredients">
-            <h4>Ingridients</h4>
+            <h4 className="textTitle">Ingridients</h4>
             <table id='ingredientTable'>
               <tbody>
                 {this.renderTableData()}
@@ -88,6 +88,7 @@ class Recipe extends Component{
             </table>
           </div>
           <div className="recipeInstruction">
+              <h4 className="textTitle">Instructions</h4>
             {this.state.instruction}
           </div>
         </div>
