@@ -29,9 +29,9 @@ For styling I used multiple react component libraries and bootstrap:
 * [react-reveal](https://www.npmjs.com/package/react-reveal)
 * [react-typist-updated](https://www.npmjs.com/package/react-typist-updated)
 
+## Things to improve on
+* Improve the styling in the [Recipe](https://github.com/GLOBBIMUS/recipe-finder/blob/master/src/components/contentComponents/Recipe.js) component. Make sure that **Instructions** section is more readable.
+* Refactor [Recipe](https://github.com/GLOBBIMUS/recipe-finder/blob/master/src/components/contentComponents/Recipe.js) and [RecipePage](https://github.com/GLOBBIMUS/recipe-finder/blob/master/src/components/contentComponents/RecipePage.js) components. The are parts that can be turned into their own function components.
 
 ## Future Work
-
-
-*  Add a new component that would let users  search the meal or cocktail by category.
-* Improve the styling in the [Recipe.js](https://github.com/GLOBBIMUS/recipe-finder/blob/master/src/components/contentComponents/Recipe.js) component. Make sure that **Instructions** section is more readable.
+* Add a new feature that would let users  search the meal or cocktail by category.
