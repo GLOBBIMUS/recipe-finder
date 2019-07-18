@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/GLOBBIMUS/recipe-finder.svg?branch=master)](https://travis-ci.org/GLOBBIMUS/recipe-finder)
+![Alt Text](media/travis_icon.png) [![Build Status](https://travis-ci.org/GLOBBIMUS/recipe-finder.svg?branch=master)](https://travis-ci.org/GLOBBIMUS/recipe-finder)
 
 # [Recipe-Finder](https://globbimus.github.io/recipe-finder)  
 
