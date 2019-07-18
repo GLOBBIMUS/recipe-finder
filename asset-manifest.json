@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/recipe-finder/static/css/main.23a0bda2.chunk.css",
+    "main.js": "/recipe-finder/static/js/main.26f7ab75.chunk.js",
+    "main.js.map": "/recipe-finder/static/js/main.26f7ab75.chunk.js.map",
+    "runtime~main.js": "/recipe-finder/static/js/runtime~main.c73fbcf2.js",
+    "runtime~main.js.map": "/recipe-finder/static/js/runtime~main.c73fbcf2.js.map",
+    "static/css/2.51b4c2c5.chunk.css": "/recipe-finder/static/css/2.51b4c2c5.chunk.css",
+    "static/js/2.624af54e.chunk.js": "/recipe-finder/static/js/2.624af54e.chunk.js",
+    "static/js/2.624af54e.chunk.js.map": "/recipe-finder/static/js/2.624af54e.chunk.js.map",
+    "index.html": "/recipe-finder/index.html",
+    "precache-manifest.00b1daacc480c26f2a74f7818f9e8524.js": "/recipe-finder/precache-manifest.00b1daacc480c26f2a74f7818f9e8524.js",
+    "service-worker.js": "/recipe-finder/service-worker.js",
+    "static/css/2.51b4c2c5.chunk.css.map": "/recipe-finder/static/css/2.51b4c2c5.chunk.css.map",
+    "static/css/main.23a0bda2.chunk.css.map": "/recipe-finder/static/css/main.23a0bda2.chunk.css.map",
+    "static/media/mdb.css": "/recipe-finder/static/media/arrow_right.8ef6a08c.svg",
+    "static/media/index.css": "/recipe-finder/static/media/background_new.04c98a9d.png",
+    "static/media/cocktail_icon_400.png": "/recipe-finder/static/media/cocktail_icon_400.ce609f88.png",
+    "static/media/meal_icon_400.png": "/recipe-finder/static/media/meal_icon_400.dea90c5c.png",
+    "static/media/s_cocktail_photo.jpg": "/recipe-finder/static/media/s_cocktail_photo.dcee0d83.jpg"
+  }
+}
